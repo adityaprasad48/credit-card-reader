@@ -1,0 +1,46 @@
+
+.payment {
+  max-width: 400px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .input {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    margin: 5px;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    font-size: 20px;
+    font-weight: 200;
+
+    &::placeholder {
+      font-family: sans-serif;
+    }
+  }
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .payment-btn {
+    padding: 5px 80px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: white;
+    background-color: olivedrab;
+    font-size: 25px;
+    border: none;
+    border-radius: 4px;
+    user-select: none;
+
+  }
+}

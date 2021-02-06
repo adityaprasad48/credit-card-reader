@@ -1,0 +1,21 @@
+.order {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+
+.order__title {
+  flex: 1;
+}
+
+.order__btn {
+  padding: 10px 15px;
+  color: white;
+  font-size: 20px;
+  border: none;
+  margin-left: 5px;
+  background-color: green;
+  font-family: sans-serif;
+}
